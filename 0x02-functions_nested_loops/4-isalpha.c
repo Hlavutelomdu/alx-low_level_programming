@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - checks for alphabetic character.
- * c, is a character to check
+ * @c: is a character to check
  * Return: 1 if c is a letter,0 otherwise
  */
 int _isalpha(int c)
