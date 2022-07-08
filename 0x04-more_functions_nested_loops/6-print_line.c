@@ -4,7 +4,7 @@
  * print_line - draws a straight line in a terminal
  * @n: number of times the character '_' should be printed
  */
-void print_line(void)
+void print_line(int n)
 {
 	if (n <= 0)
 	{
