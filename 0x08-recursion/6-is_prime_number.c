@@ -3,7 +3,7 @@
 int actual_prime(int, int);
 
 /**
- * _is_prime_number - says if an interger is a prime or not
+ * is_prime_number - says if an interger is a prime or not
  * @n: number to evaluate
  *
  * Return: 1 if n is prime and 0 if not
@@ -18,6 +18,7 @@ int is_prime_number(int n)
 /**
  * actual_prime - calculates if the number is prime or not
  * @n: number to evaluate
+ * @i: iterator
  *
  * Return: 1 if n is prime and 0 if not
  */
