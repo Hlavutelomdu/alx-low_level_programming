@@ -1,5 +1,7 @@
 #include "main.h"
 
+int actual_prime(int, int);
+
 /**
  * _is_prime_number - says if an interger is a prime or not
  * @n: number to evaluate
