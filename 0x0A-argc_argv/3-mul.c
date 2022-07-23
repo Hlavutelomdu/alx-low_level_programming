@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include "main.h"
 
-int _atoi(char *s);
-
 /**
  * _atoi - converts a string to an int
  * @s: string to convert
@@ -25,7 +23,7 @@ int _atoi(char *s)
 
 	while (i < len && f == 0)
 	{
-		if (s[i] >= '-')
+		if (s[i] == '-')
 			++d;
 
 		if (s[i] >= '0' && s[i] <= '9')
