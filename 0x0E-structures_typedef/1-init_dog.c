@@ -8,10 +8,11 @@
  * @age: age to init
  * @owner: owner to init
  */
-void init_dog(struct dog *d, char *name, flot age, char *owner)
+void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (d == NULL)
+	if (d == 0)
 		return;
+
 	d->name = name;
 	d->age = age;
 	d->owner = owner;
